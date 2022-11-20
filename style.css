@@ -184,18 +184,12 @@ button a{
 .section h1{
     font-size: clamp(1.5rem, 4vw, 3rem);
     color: #1d0f37;
-    text-shadow: 0 10px 15px #f34e4e,
-    0 10px 12px black;
+    background:linear-gradient(to right,#f32170,#ff6b08,#cf23cf,#eedd44);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text ;
+    text-decoration: underline;
 }
-.section h1::before{
-    content: '::';
-   
-    
-}
-.section h1::after{
-    content: ' :: ';
-    
-}
+
 .section h3{
     font-weight: 500;
     color: #1d0f37;
