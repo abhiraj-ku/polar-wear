@@ -148,15 +148,23 @@ button{
     border: none;
     transition: .2s;
     cursor: pointer;
+    
 }
 button:hover{
-    background-color: gold;
+    
+    background-color: black;
     outline: 2px solid grey;
     border-radius: 8px;
+    
+   
+}
+button a:hover{
+    color: white;
 }
 button a{
     text-decoration: none;
-    color: black;
+    
+   
 }
 
 /*section starts video included*/
