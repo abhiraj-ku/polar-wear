@@ -183,6 +183,18 @@ button a{
 }
 .section h1{
     font-size: clamp(1.5rem, 4vw, 3rem);
+    color: #1d0f37;
+    text-shadow: 0 10px 15px #f34e4e,
+    0 10px 12px black;
+}
+.section h1::before{
+    content: '::';
+   
+    
+}
+.section h1::after{
+    content: ' :: ';
+    
 }
 .section h3{
     font-weight: 500;
@@ -191,4 +203,27 @@ button a{
 .iframe{
     flex-basis: 40%;
     
+}
+footer{
+    background-color: rgba(250, 204, 3, 0.934);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10rem;
+    line-height: 1.5rem;
+
+}
+.footer-text{
+    align-items: center;
+    color: #f34e4e;
+    
+}
+footer .connect{
+    margin-left: 3.5rem;
+}
+.foot-note{
+    text-decoration: underline;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
 }
