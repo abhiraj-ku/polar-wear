@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+nav{
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 25px 20px -20px;
+    height: 5rem;
+    /* overflow: hidden;
+   
+    position: fixed;
+    top: 0;
+    width: 100%; */
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.3rem 1rem;
+    /* position:fixed;
+    width: 100%;
+    overflow: hidden; */
+}
+
+.logo-container{
+    flex-basis: 40%;
+    padding: 10px;
+    position: relative;
+}
+.nav-center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    gap: 2rem;
+}
+.nav-center h4{
+    border-bottom: 2px solid transparent;
+    
+}
+.nav-center h4 a{
+    text-decoration: none;
+}
+.nav-center h4 a:hover{
+    border-bottom: 2px solid #f34e4e
+
+}
+
+.social-links {
+    display: flex;
+justify-content: space-evenly;
+gap: 1.3rem;
+font-size: 1.3rem;
+align-items: center;
+
+}
+.social-links a{
+    color: black;
+}
+.about{
+    text-align: center;
+    text-decoration: underline;
+    background-color: ;
+    height: 3rem;
+    font-family: arial;
+    text-shadow: 4px 10px 15px grey,
+    0px 10px 15px black;
+    color:white;
+    background-color: aquamarine;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding-right: 1rem; */
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #f34e4e;
+  
+}
+.right{
+    flex-basis: 50%;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    text-align: left;
+}
+.text{
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headline{
+    font-size: 2rem;
+    color: white;
+}
+.company{
+    text-decoration: underline;
+    color: black;
+    font-size: 3rem;
+
+}
+.left{
+    flex-basis: 45%;
+}
+.hero-img{
+    width: 85%;
+    min-width: 50%;
+    height: auto;
+    
+}
+
+.img-hero{
+    width: 70%;
+    /* min-width: 50%; */
+    /* height:auto;
+    filter:drop-shadow(0px 16px 10px black); */
+    border-radius : 30%;
+}
+.main-button{
+    padding: 15px;
+}
+
